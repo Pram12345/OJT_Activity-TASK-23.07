@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+
+
+
+
+ <bean class="in.sp.beans.StudentC" id="stdId">
+    <property name="name" value="Ramakant"/>
+    <property name="rollno" value = "101"/>
+    <property name="email" value ="ram@gmail.com"/>
+    
+  </bean>
+    
+ <bean class="in.sp.beans.StudentC" id="stdId1">
+    <property name="name" value="kunjesh"/>
+    <property name="rollno" value = "102"/>
+    <property name="email" value ="kunjeshbihari@gmail.com"/>
+    
+  </bean>
+  
+  <bean class="in.sp.beans.Skill" id="stdId3">
+    <property name="web" value="Mearn"/>
+    <property name="cloud" value = "AWS"/>
+    <property name="Ai" value ="Python"/>
+    
+  </bean>
+
+
+
+
+</beans>
+
+
